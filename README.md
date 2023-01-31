@@ -10,7 +10,9 @@ Feel free to contact me for improvements.
 
 ## List of Problems (Python)
 
-| #   | Problem                                                           | Difficulty | Solution                                                                                                 |
-|-----|-------------------------------------------------------------------|------------|----------------------------------------------------------------------------------------------------------|
-| 1   | [Two Sum](https://leetcode.com/problems/two-sum/)                 | Easy       | [Link](https://github.com/DmitryRyumin/LeetCode/tree/main/solutions/python/easy/1__Two_Sum.py)           |
-| 2   | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium     | [Link](https://github.com/DmitryRyumin/LeetCode/tree/main/solutions/python/medium/2__Add_Two_Numbers.py) |
+| #   | Problem                                                                                                                      | Difficulty | Solution                                                                                                 |
+|-----|------------------------------------------------------------------------------------------------------------------------------|------------|----------------------------------------------------------------------------------------------------------|
+| 1   | [Two Sum](https://leetcode.com/problems/two-sum/)                                                                            | Easy       | [Link](https://github.com/DmitryRyumin/LeetCode/tree/main/solutions/python/easy/1__Two_Sum.py)           |
+| 2   | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                                            | Medium     | [Link](https://github.com/DmitryRyumin/LeetCode/tree/main/solutions/python/medium/2__Add_Two_Numbers.py) |
+| 3   | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium     | [Link](https://github.com/DmitryRyumin/LeetCode/tree/main/solutions/python/medium/3__Longest_Substring_Without_Repeating_Characters.py) |
+| 4   | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                 | Hard       | [Link](https://github.com/DmitryRyumin/LeetCode/tree/main/solutions/python/medium/4__Median_of_Two_Sorted_Arrays.py) |
