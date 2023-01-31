@@ -10,6 +10,7 @@ Feel free to contact me for improvements.
 
 ## List of Problems (Python)
 
-| #   | Problem                                           | Difficulty | Solution                                                                                       |
-|-----|---------------------------------------------------|------------|------------------------------------------------------------------------------------------------|
-| 1   | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy       | [Link](https://github.com/DmitryRyumin/LeetCode/tree/main/solutions/python/easy/1__Two_Sum.py) |
+| #   | Problem                                                           | Difficulty | Solution                                                                                                 |
+|-----|-------------------------------------------------------------------|------------|----------------------------------------------------------------------------------------------------------|
+| 1   | [Two Sum](https://leetcode.com/problems/two-sum/)                 | Easy       | [Link](https://github.com/DmitryRyumin/LeetCode/tree/main/solutions/python/easy/1__Two_Sum.py)           |
+| 2   | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium     | [Link](https://github.com/DmitryRyumin/LeetCode/tree/main/solutions/python/medium/2__Add_Two_Numbers.py) |
