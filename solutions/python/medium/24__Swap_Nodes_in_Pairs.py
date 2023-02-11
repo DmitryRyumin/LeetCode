@@ -2,16 +2,14 @@
 # -*- coding: utf-8 -*-
 
 """
-23. Merge k Sorted Lists
+24 Swap Nodes in Pairs
 """
 
 # ######################################################################################################################
 # Required import
 # ######################################################################################################################
 
-import heapq
-
-from typing import List, Optional
+from typing import Optional
 
 # ######################################################################################################################
 # Solution
@@ -21,24 +19,23 @@ class ListNode:
     def __init__(self, val = 0, next = None):
         self.val = val
         self.next = next
+
 class Solution:
-    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+    def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if head is None or head.next is None: return head
+
         dummy = ListNode(0)
-        current = dummy
-        heap = []
+        dummy.next = head
+        prev = dummy
 
-        for i in range(len(lists)):
-            if lists[i]:
-                heap.append((lists[i].val, i))
+        while head and head.next:
+            first_node = head
+            second_node = head.next
+            prev.next = second_node
+            first_node.next = second_node.next
+            second_node.next = first_node
 
-        heapq.heapify(heap)
-
-        while heap:
-            val, i = heapq.heappop(heap)
-            current.next = ListNode(val)
-            current = current.next
-            if lists[i].next:
-                heapq.heappush(heap, (lists[i].next.val, i))
-                lists[i] = lists[i].next
+            head = first_node.next
+            prev = first_node
 
         return dummy.next
